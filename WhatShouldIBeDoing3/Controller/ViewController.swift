@@ -10,8 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var searchTextField: UITextField!
+    @IBOutlet weak var taskLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+ 
+        taskLabel.text = searchTextField.text 
+        
         // Do any additional setup after loading the view.
     }
 

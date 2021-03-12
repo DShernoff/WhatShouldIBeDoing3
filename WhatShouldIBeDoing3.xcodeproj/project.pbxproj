@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FAA65B3925FBCECA007AC148 /* code.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA65B3825FBCECA007AC148 /* code.swift */; };
+		FAA65B4125FBD778007AC148 /* PriorityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA65B4025FBD778007AC148 /* PriorityList.swift */; };
 		FCBECFA7256DDFAF0062EADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBECFA6256DDFAF0062EADE /* AppDelegate.swift */; };
 		FCBECFA9256DDFAF0062EADE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBECFA8256DDFAF0062EADE /* SceneDelegate.swift */; };
 		FCBECFAB256DDFAF0062EADE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBECFAA256DDFAF0062EADE /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		FAA65B3825FBCECA007AC148 /* code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = code.swift; sourceTree = "<group>"; };
+		FAA65B4025FBD778007AC148 /* PriorityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityList.swift; sourceTree = "<group>"; };
 		FCBECFA3256DDFAF0062EADE /* WhatShouldIBeDoing3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatShouldIBeDoing3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBECFA6256DDFAF0062EADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCBECFA8256DDFAF0062EADE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FAA65B4525FBD78B007AC148 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAA65B3825FBCECA007AC148 /* code.swift */,
+				FAA65B4025FBD778007AC148 /* PriorityList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAA65B4625FBD79F007AC148 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCBECFAA256DDFAF0062EADE /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAA65B4725FBD7B4007AC148 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCBECFAC256DDFAF0062EADE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FCBECF9A256DDFAF0062EADE = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +130,9 @@
 			children = (
 				FCBECFA6256DDFAF0062EADE /* AppDelegate.swift */,
 				FCBECFA8256DDFAF0062EADE /* SceneDelegate.swift */,
-				FCBECFAA256DDFAF0062EADE /* ViewController.swift */,
-				FAA65B3825FBCECA007AC148 /* code.swift */,
-				FCBECFAC256DDFAF0062EADE /* Main.storyboard */,
+				FAA65B4525FBD78B007AC148 /* Model */,
+				FAA65B4625FBD79F007AC148 /* Controller */,
+				FAA65B4725FBD7B4007AC148 /* View */,
 				FCBECFAF256DDFB00062EADE /* Assets.xcassets */,
 				FCBECFB1256DDFB00062EADE /* LaunchScreen.storyboard */,
 				FCBECFB4256DDFB00062EADE /* Info.plist */,
@@ -262,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA65B4125FBD778007AC148 /* PriorityList.swift in Sources */,
 				FAA65B3925FBCECA007AC148 /* code.swift in Sources */,
 				FCBECFAB256DDFAF0062EADE /* ViewController.swift in Sources */,
 				FCBECFA7256DDFAF0062EADE /* AppDelegate.swift in Sources */,
