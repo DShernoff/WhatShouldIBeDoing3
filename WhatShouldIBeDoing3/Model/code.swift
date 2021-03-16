@@ -3,7 +3,7 @@
 //Sheduled tasks must occur as scheduled, and beyond this, the app seeks to recommend more important tasks first, according to specifications
 //This example has four tasks: two scheduled, one goal with a deadline, one long term project
 
-var PriortyQueue = ["scheduledEvent":1, ]
+var PriortyQueue = ["scheduledEvent":1, "nearTermTask":2, "project":3, "longTermGoal":4, "leisureActivity":5]
 
 //Notes: First step: create priority queue holding all task types and priorities
 // Next step: Link buttons to assistant in storyboard; each button creates function called button pressed

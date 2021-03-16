@@ -141,8 +141,19 @@
                     </view>
                     <navigationItem key="navigationItem" id="bRk-fU-XdK"/>
                     <connections>
+                        <outlet property="BeDoingNowButton" destination="I6G-fJ-wxm" id="1FK-R4-B1U"/>
+                        <outlet property="WhatShouldYou" destination="3I2-W0-QjL" id="wEq-Nd-FGY"/>
+                        <outlet property="beDoingNow" destination="9gD-N5-S6z" id="oG3-dR-vdH"/>
+                        <outlet property="briefCase" destination="XNo-Rh-Vjc" id="9c1-bk-4Bf"/>
+                        <outlet property="leisureActivity" destination="aPs-eP-UcA" id="wDk-w0-Wjm"/>
+                        <outlet property="longTermGoal" destination="Veg-En-B9h" id="Fsm-dz-SR1"/>
+                        <outlet property="nearTermTask" destination="9c3-Vh-XXp" id="qXv-tn-x3f"/>
+                        <outlet property="project" destination="VUb-ds-7tC" id="P4a-Jp-1TI"/>
+                        <outlet property="scheduledEvent" destination="frV-OR-mKr" id="a5A-1E-kcT"/>
                         <outlet property="searchTextField" destination="Vkz-Pc-apd" id="Zzd-6I-SHe"/>
                         <outlet property="taskLabel" destination="suT-Zs-xVl" id="Zbh-tz-u84"/>
+                        <outlet property="taskType" destination="cGU-en-GZP" id="DNX-om-Lhw"/>
+                        <outlet property="whatShouldI" destination="ynG-Sl-pYd" id="c5R-LX-P03"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

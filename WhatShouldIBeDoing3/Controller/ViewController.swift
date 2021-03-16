@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var scheduledEvent: UIButton!
+    @IBOutlet weak var leisureActivity: UIButton!
+    @IBOutlet weak var BeDoingNowButton: UIButton!
+    @IBOutlet weak var WhatShouldYou: UIButton!
+    @IBOutlet weak var beDoingNow: UILabel!
+    @IBOutlet weak var whatShouldI: UILabel!
+    @IBOutlet weak var longTermGoal: UIButton!
+    @IBOutlet weak var project: UIButton!
+    @IBOutlet weak var nearTermTask: UIButton!
+    @IBOutlet weak var briefCase: UIImageView!
+    @IBOutlet weak var taskType: UILabel!
     @IBOutlet weak var searchTextField: UITextField!
     @IBOutlet weak var taskLabel: UILabel!
     override func viewDidLoad() {
